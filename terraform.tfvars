@@ -2,14 +2,14 @@
 
 add_teams = [
   {
-    team = "team1"
+    team = ""
     users = [
     #    "user1",
     #    "user2",
     ]
   },
   {
-    team = "team2"
+    team = ""
     users = [
     #    "user3",
     #    "user4",
