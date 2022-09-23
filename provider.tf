@@ -1,8 +1,3 @@
-provider "github" {
-  token = var.token
-  owner = var.owner
-}
-
 terraform {
   required_version = "~> 1.0"
 
@@ -13,3 +8,5 @@ terraform {
     }
   }
 }
+
+provider "github" {}
