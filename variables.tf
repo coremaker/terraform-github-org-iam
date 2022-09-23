@@ -16,8 +16,7 @@ variable "user_list" {
 }
 
 variable "add_teams" {
-    type = list(object({
-        team = string
+    type = map(object({
         users = list(string)
     }))
 }
