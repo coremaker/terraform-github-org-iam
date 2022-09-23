@@ -25,7 +25,7 @@ resource "github_team_members" "some_team_members" {
   dynamic "members" {
     for_each = var.add_teams[each.key].users
     content {
-      username = var.add_teams[each.key].users[members.key]
+      username = members.key
       role     = "member"
     }
   }
