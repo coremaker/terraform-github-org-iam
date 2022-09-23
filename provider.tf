@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-provider "github" {
-  app_auth {} # When using `GITHUB_APP_XXX` environment variables
-}
+# provider "github" {
+#   app_auth {} # When using `GITHUB_APP_XXX` environment variables
+# }
 
