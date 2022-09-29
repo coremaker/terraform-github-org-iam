@@ -1,7 +1,3 @@
-variable "token" {
-    default = ""
-}
-
 variable "owner" {
   description = "GitHub owner used to configure the provider"
   type        = string
@@ -9,10 +5,7 @@ variable "owner" {
 }
 
 variable "user_list" { 
-    default = {
-    #    "user1" = "member"
-    #    "user2" = "admin"
-    }
+    default = {}
 }
 
 variable "add_teams" {

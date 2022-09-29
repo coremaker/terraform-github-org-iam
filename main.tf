@@ -10,7 +10,7 @@ resource "github_membership" "membership_for_some_user" {
 resource "github_team" "some_team" {
 
   for_each = var.add_teams
-  name = each.key
+  name     = each.key
 
   description = "Some cool team"
   privacy     = "closed"
