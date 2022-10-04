@@ -1,9 +1,8 @@
-
 ### Add a user to the organization
 resource "github_membership" "membership_for_some_user" {
-    for_each = var.user_list
-    username = each.key
-    role     = each.value
+  for_each = var.user_list
+  username = each.key
+  role     = each.value
 }
 
 ### Add a team to the Organization
