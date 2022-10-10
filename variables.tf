@@ -1,4 +1,4 @@
-variable "user_list" {
+variable "organization_members" {
   default = {}
 }
 
@@ -7,7 +7,7 @@ variable "team_description" {
   default = ""
 }
 
-variable "add_teams" {
+variable "team_members" {
   type = map(object({
     users = list(string)
   }))

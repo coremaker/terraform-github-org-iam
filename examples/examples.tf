@@ -2,15 +2,15 @@ module "github-iam" {
 source = "../"
   
   # Users to be added in the organization
-  user_list = {
+  organization_members = {
      "user1" = "admin"
      "user2" = "member"
   }
 
   # Teams to be added in the org, along with user distribution per team
-  add_teams = {
+  team_members = {
     test-terraform = {
-        users = ["tudormangri10", "CosminBriscaru"]
+        users = ["user1", "user2"]
     }
   }
 }
