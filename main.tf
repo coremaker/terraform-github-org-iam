@@ -11,7 +11,7 @@ resource "github_team" "some_team" {
   for_each = var.add_teams
   name     = each.key
 
-  description = "Some cool team"
+  description = var.team_description
   privacy     = "closed"
 }
 
