@@ -22,10 +22,18 @@ resource "github_team_members" "org_team_members" {
   team_id  = github_team.organization_team[each.key].id
 
   dynamic "members" {
-    for_each = var.team_members[each.key].users
+    for_each = var.team_members[each.key].members
     content {
       username = members.value
       role     = "member"
+    }
+  }
+
+  dynamic "members" {
+    for_each = var.team_members[each.key].maintainers
+    content {
+      username = members.value
+      role     = "maintainer"
     }
   }
 }

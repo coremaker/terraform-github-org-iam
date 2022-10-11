@@ -9,6 +9,7 @@ variable "team_description" {
 
 variable "team_members" {
   type = map(object({
-    users = list(string)
+    members = list(string)
+    maintainers = list(string)
   }))
 }
