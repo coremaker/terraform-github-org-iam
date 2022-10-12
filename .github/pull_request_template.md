@@ -26,7 +26,7 @@ TODOs
 - [X] Give terraform resources meaningful names.
 - [X] Introduced pull_request_template file.
 - [X] Examples directory.
-- [ ] Terraform pre-commit without tflint.
+- [X] Terraform pre-commit without tflint.
 
 Other information
 

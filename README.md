@@ -2,7 +2,7 @@
 
 This is the Terraform Github Module used to add users to the organization as members and admins, create teams and add users to their respective team.
 
-
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 # Resources
 
 | Name | Type |
@@ -11,3 +11,4 @@ This is the Terraform Github Module used to add users to the organization as mem
 | [github_team](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/team) | resource |
 | [github_team_members](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/team_members) | resource |
 
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
