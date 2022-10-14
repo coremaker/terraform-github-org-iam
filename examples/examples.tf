@@ -4,7 +4,7 @@ source = "../"
   # Users to be added in the organization
   organization_members = {
      "user1" = "admin"
-     "user2" = "member"'
+     "user2" = "member"
      "user3" = "admin"
   }
 
